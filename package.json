@@ -1,6 +1,6 @@
 {
   "name": "docusaurus2-webpack-environment",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A docusaurus2 webpack environment plugin",
   "main": "index.js",
   "keywords": [
