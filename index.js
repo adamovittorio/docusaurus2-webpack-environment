@@ -6,7 +6,7 @@ module.exports = function (context, options) {
     configureWebpack(config, isServer, utils) {
       return {
         plugins: [
-          new webpack.EnvironmentPlugin(options.defaultEnvVariables),
+          new webpack.EnvironmentPlugin(options),
         ],
       };
     },
